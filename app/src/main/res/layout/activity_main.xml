@@ -118,14 +118,18 @@
 
             <Button
                 style="@style/DigitBtnStyle"
+                android:id="@+id/btnReset"
+                android:text="C">
+            </Button>
+            <Button
+                style="@style/DigitBtnStyle"
                 android:text="0"
                 android:id="@+id/btn0">
             </Button>
             <Button
                 style="@style/DigitBtnStyle"
                 android:text="="
-                android:id="@+id/btnEgal"
-                android:layout_span="2">
+                android:id="@+id/btnEgal">
             </Button>
             <Button
                 style="@style/DigitBtnStyle"

@@ -37,6 +37,13 @@ public class MainActivity extends AppCompatActivity {
                 compute();
             }
         });
+        Button btnReset = findViewById(R.id.btnReset);
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                resetCalculator(v);
+            }
+        });
 
         for (int i = 1; i <= 9; i++) {
             int buttonId = getResources().getIdentifier("btn" + i, "id", getPackageName());
