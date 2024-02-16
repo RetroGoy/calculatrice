@@ -56,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 op2 = op2 * 10 + val;
                 updateDisplay();
             }
-        }catch (NumberFormatException | ClassCastException e) {
+        }
+        catch (NumberFormatException | ClassCastException e) {
             Toast.makeText(this, "Valeur erronée",Toast.LENGTH_LONG).show();;
         }
     }

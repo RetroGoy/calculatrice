@@ -45,27 +45,23 @@
             android:layout_height="match_parent">
 
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnSept">
             </Button>
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnHuit">
             </Button>
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnNeuf">
             </Button>
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="+"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnPlus">
             </Button>
         </TableRow>
@@ -74,27 +70,23 @@
         android:layout_height="match_parent">
 
         <Button
+            style="@style/DigitBtnStyle"
             android:text="4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/btnQuatre">
         </Button>
         <Button
+            style="@style/DigitBtnStyle"
             android:text="5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/btnCinq">
         </Button>
         <Button
+            style="@style/DigitBtnStyle"
             android:text="6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/btnSix">
         </Button>
         <Button
+            style="@style/DigitBtnStyle"
             android:text="-"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/btnMoins">
         </Button>
     </TableRow>
@@ -103,27 +95,23 @@
             android:layout_height="match_parent">
 
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnUn">
             </Button>
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnDeux">
             </Button>
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnTrois">
             </Button>
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="x"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnFois">
             </Button>
         </TableRow>
@@ -132,23 +120,19 @@
             android:layout_height="match_parent">
 
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btn0">
             </Button>
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="="
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnEgal"
                 android:layout_span="2">
-                <item name="android:onClick">addNumber</item>
             </Button>
             <Button
+                style="@style/DigitBtnStyle"
                 android:text="/"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/btnDiv">
             </Button>
         </TableRow>
